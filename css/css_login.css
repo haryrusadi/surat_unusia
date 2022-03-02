@@ -1,0 +1,95 @@
+body{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background: rgba(19,19,19,1);
+    background: -moz-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(19,19,19,1) 53%, rgba(19,19,19,1) 91%, rgba(237,245,10,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(19,19,19,1)), color-stop(53%, rgba(19,19,19,1)), color-stop(91%, rgba(19,19,19,1)), color-stop(100%, rgba(237,245,10,1)));
+    background: -webkit-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(19,19,19,1) 53%, rgba(19,19,19,1) 91%, rgba(237,245,10,1) 100%);
+    background: -o-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(19,19,19,1) 53%, rgba(19,19,19,1) 91%, rgba(237,245,10,1) 100%);
+    background: -ms-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(19,19,19,1) 53%, rgba(19,19,19,1) 91%, rgba(237,245,10,1) 100%);
+    background: linear-gradient(to bottom, rgba(19,19,19,1) 0%, rgba(19,19,19,1) 53%, rgba(19,19,19,1) 91%, rgba(237,245,10,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#edf50a', GradientType=0 );   
+    }
+
+.profile-img{
+    width: 260px; /* lebar logo */
+    height: 180px; /* tinggi logo */
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.centerside .text-center{
+        color: #ffffff;
+    }
+
+.login-title{
+    color: #555;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+}
+
+.form-signin{
+    max-width: 330px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.form-signin .form-control{
+    position: relative;
+    font-size: 13px;
+    height: auto;
+    padding: 10px; /*tinggi box*/
+    -webkit-box-sizing: none;
+    -moz-box-sizing: none;
+    -webkit-box-shadow: none;
+    box-sizing: border-box;
+}
+
+.form-signin input[type="text"]{
+    margin-bottom: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin input[type="password"]{
+    margin-bottom: 11px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.copyright{
+    display: block;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.input-flat{
+    background-color: transparent;
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 1px solid #ffff00;
+    color: white;
+    border-radius: 0px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+        border-top-width: 0px;
+        border-top-style: none;
+        border-top-color: currentcolor;
+    border-top: 1px solid #f5fb05;
+}

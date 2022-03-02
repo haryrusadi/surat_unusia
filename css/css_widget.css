@@ -1,0 +1,95 @@
+/* Sidebar Profile */
+.sidebar-title{
+	padding:0 15px;
+	background: #ffff00;
+	overflow: hidden;
+}
+.sidebar-title h2{
+	margin:0px;padding:0px;
+	height: 60px;line-height: 60px;
+	font-size: 20px;
+}
+.sidebar-profile{
+	padding:5px;
+	overflow: hidden;
+	/*background: url(../images/background/profile-bg.jpg) no-repeat center;*/
+	background: #000000;
+	background-size: cover;
+	min-height: 60px;
+	position: relative;
+	text-align: center;
+	/*box-shadow: 0px 1px 2px rgba(0,0,0,0.5);*/
+	z-index: 9;
+	border-top: 1px solid #E0E0E0;
+	
+	background: rgba(245,238,23,1);
+background: -moz-linear-gradient(left, rgba(245,238,23,1) 1%, rgba(3,3,3,1) 5%, rgba(3,3,3,1) 19%, rgba(3,3,3,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(1%, rgba(245,238,23,1)), color-stop(5%, rgba(3,3,3,1)), color-stop(19%, rgba(3,3,3,1)), color-stop(100%, rgba(3,3,3,1)));
+background: -webkit-linear-gradient(left, rgba(245,238,23,1) 1%, rgba(3,3,3,1) 5%, rgba(3,3,3,1) 19%, rgba(3,3,3,1) 100%);
+background: -o-linear-gradient(left, rgba(245,238,23,1) 1%, rgba(3,3,3,1) 5%, rgba(3,3,3,1) 19%, rgba(3,3,3,1) 100%);
+background: -ms-linear-gradient(left, rgba(245,238,23,1) 1%, rgba(3,3,3,1) 5%, rgba(3,3,3,1) 19%, rgba(3,3,3,1) 100%);
+background: linear-gradient(to right, rgba(245,238,23,1) 1%, rgba(3,3,3,1) 5%, rgba(3,3,3,1) 19%, rgba(3,3,3,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5ee17', endColorstr='#030303', GradientType=1 );
+}
+.sidebar-profile .avatar{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50em;
+	float: left;
+	margin-top:5px;
+	margin-right:10px;
+	vertical-align: middle;
+	position: relative;
+}
+.sidebar-profile h4{
+	margin:10px 0px 0px;
+	font-size:14px;
+	position: relative;
+	text-align: center;
+}
+.sidebar-profile small{
+	position: relative;
+	text-align: center!important;
+}
+
+/* Font Icon */
+.the-icons{
+	list-style: none;
+	margin:0;padding:0;
+}
+.the-icons li{
+	padding:10px;
+}
+.the-icons li .fa{
+	width:20px;
+	text-align: center;
+	margin-right:10px;
+	font-size: 16px;
+}
+.stats-info ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 8px;
+    border-top: 1px solid #fff;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C0CA33; 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4); 
+}
+.sidebar-logo img{
+	width: 50%;
+}
